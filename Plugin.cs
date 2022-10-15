@@ -63,7 +63,7 @@ namespace SpritesheetAPI
 
                 if (flag1) InvalidData("Image filename isn't valid.");
                 if (flag2) InvalidData("Card name isn't valid.");
-                if (flag3) InvalidData("Frame rate should be greater than 0 and no less than 60.");
+                if (flag3) InvalidData("Frame rate should be greater than 0 and no more than 60.");
                 if (flag4) InvalidData("Frame count should be greater than 0.");
 
                 if (flag1 || flag2 || flag3 || flag4) continue;
