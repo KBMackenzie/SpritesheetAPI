@@ -6,7 +6,7 @@ This mod is currently in its **beta** stage. Please know there may be bugs. If y
 
 And here's an example of animated cards made with this mod (all art by me):
 
-![Animated Card Example](animatedcards.gif)
+![Animated Card Example](https://i.imgur.com/47IrttN.gif)
 
 Below you'll find all the **documentation** for this mod, as well as a short **blink animation tutorial**.
 
