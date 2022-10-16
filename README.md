@@ -5,8 +5,8 @@ This is a project done purely for fun. Please don't expect much out of it and pl
 This mod is currently in its **beta** stage. Please know there may be bugs. If you find any bugs, please contact me on Discord: `kelly betty#7936`
 
 And here's an example of animated cards made with this mod (all art by me):
-![Animated Card Example](https://i.imgur.com/vfuLVyp.gif)
 
+![Animated Card Example](https://i.imgur.com/vfuLVyp.gif)
 
 Below you'll find all the **documentation** for this mod, as well as a short **blink animation tutorial**.
 
