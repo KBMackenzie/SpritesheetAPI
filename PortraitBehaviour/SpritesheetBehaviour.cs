@@ -7,7 +7,7 @@ namespace SpritesheetAPI.PortraitBehaviour
 {
     internal class SpritesheetBehaviour : CardAppearanceBehaviour
     {
-        (Sprite[] frames, int frameRate) Anim;
+        (Sprite[] frames, int frameRate, float PauseTime) Anim;
         bool coroutineStart, noAnim;
 
         public override void ApplyAppearance()
@@ -26,7 +26,7 @@ namespace SpritesheetAPI.PortraitBehaviour
         public IEnumerator AnimatePortrait()
         {
             Sprite[] frames = Anim.frames;
-            float wait = 1f / Anim.frameRate;
+            float frameWait = 1f / Anim.frameRate;
 
             while (true) // Is 'while(true)' good here? I'm not sure.
             {
@@ -35,7 +35,12 @@ namespace SpritesheetAPI.PortraitBehaviour
                     Card.RenderInfo.portraitOverride = frames[i];
                     // Card.RenderCard();
                     Card.StatsLayer.RenderCard(Card.RenderInfo);
-                    yield return new WaitForSeconds(wait);
+                    yield return new WaitForSeconds(frameWait);
+                }
+
+                if(Anim.PauseTime > 0)
+                {
+                    yield return new WaitForSeconds(Anim.PauseTime);
                 }
             }
         }

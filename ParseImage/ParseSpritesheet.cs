@@ -39,7 +39,10 @@ namespace SpritesheetAPI.ParseImage
                     Texture2D tex = LoadTexture2D(path);
                     Sprite[] frames = LoadAllSprites(tex, Data.FrameCount);
 
-                    Library.AnimatedPortraits.Add(Card, (frames, Data.FrameRate));
+                    // Set 'PauseTime' to 0 if conditions are true
+                    if (!Data.HasPause || Data.PauseTime < 0) Data.PauseTime = 0f;   
+
+                    Library.AnimatedPortraits.Add(Card, (frames, Data.FrameRate, Data.PauseTime));
                     LogInfo($"Loaded animated portrait data for card \"{Card}\"!");
                 }
                 catch (Exception)

@@ -13,6 +13,6 @@ namespace SpritesheetAPI.PortraitBehaviour
         public static Dictionary<string, PortraitJSON> Spritesheets = new Dictionary<string, PortraitJSON>();
 
         // Animated portrait frames stored with card name as their key
-        public static Dictionary<string, (Sprite[] frames, int frameRate)> AnimatedPortraits = new Dictionary<string, (Sprite[] frames, int frameRate)>();
+        public static Dictionary<string, (Sprite[] frames, int frameRate, float pauseTime)> AnimatedPortraits = new Dictionary<string, (Sprite[] frames, int frameRate, float pauseTime)>();
     }
 }
