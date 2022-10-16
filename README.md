@@ -32,7 +32,7 @@ There are two ways of installing this mod: with the help of a mod manager (like 
 In order to use this mod, you're gonna need two things: A spritesheet, and a way to 'register' that spritesheet in-game.
 A JSON file is the easiest way to do it, but C# is also an available option for those who prefer it.
 
-I will go through each of those options in depth.
+I will go through each of those options in depth below this.
 
 #### JSON
 Your JSON file's name should end in **_anim.json** in order for this mod to find it. **Yes, this is necessary.**
