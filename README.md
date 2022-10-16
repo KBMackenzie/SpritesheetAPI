@@ -46,7 +46,7 @@ And these are all the fields your JSON file should contain:
   "FrameRate": 12,
   "FrameCount": 4,
   "HasPause": false,
-  "PauseTime": 1,
+  "PauseTime": 1
 }
 ```
 
@@ -74,6 +74,7 @@ The in-game name of the card your animated portrait will be attached to. Your mo
 A few important thing to note about cards:
 1. If your card uses an alt portrait for anything, this *might* break the animation.
 2. Cards with changing portraits, like the Mud Turtle, *prooooobably* have weird interactions with this mod. I have not tested this. I'm too burnt out to test every possibility.
+3. I have not tested how cards affected by this mod interact with the Mycologist. For this reason, it's **heavily** advised you set cards with animated portraits as *'one per deck'* (like how the base game's talking cards are). I was going to test this, but I'm kinda burnt out and don't have the energy.
 
 ## The Spritesheet
 The most important part of this mod is the spritesheet.
@@ -88,6 +89,7 @@ This mod doesn't support colorful portraits by default, but it's fully compatibl
 You can, thus, use that to make colorful animated portraits—or even just convert random GIFs to card portraits if you want.
 
 A typical spritesheet should look something like this:
+
 ![Spritesheet Example](https://i.imgur.com/RhbVjAc.png)
 
 **Note:** I have added the white background **just** so that this image is visible for users using Dark Mode and/or opening this image on a dark background. Your spritesheet's background should be **transparent**.
@@ -160,6 +162,7 @@ So, walking you through the steps:
 Make a spritesheet with two frames: A blinking one and a non-blinking one. The blinking sprite should come ***first*** in the spritesheet. This is important, as this mod reads sprites left-to-right, and you don't want the animation to pause on the blink.
 
 And here's an example of a simple spritesheet for a blinking animation:
+
 ![Blink Spritesheet Example](https://i.imgur.com/OEHOZEk.png)
 
 #### Writing the JSON File
@@ -173,7 +176,7 @@ For this blinking animation, I'll make a new JSON file for my 'Kels_Example' car
   "FrameRate": 6,
   "FrameCount": 2,
   "HasPause": true,
-  "PauseTime": 3,
+  "PauseTime": 3
 }
 ```
 
