@@ -3,9 +3,6 @@ using SpritesheetAPI.JSONData;
 using SpritesheetAPI.ParseImage;
 using SpritesheetAPI.PortraitBehaviour;
 using System;
-using System.Linq;
-using System.Collections.Generic;
-using System.Text;
 using BepInEx;
 using InscryptionAPI.Card;
 
