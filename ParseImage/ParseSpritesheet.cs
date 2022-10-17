@@ -2,7 +2,6 @@
 using System.Linq;
 using System.Collections.Generic;
 using SpritesheetAPI.PortraitBehaviour;
-using HarmonyLib;
 using SpritesheetAPI.JSONData;
 using UnityEngine;
 using System.IO;
