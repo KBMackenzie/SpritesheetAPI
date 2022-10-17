@@ -127,7 +127,7 @@ The frame rate is, put simply, how fast your animation plays. The higher the fra
 2. Frame rate cannot be higher than 60.
 3. The **ideal frame rate** is **24 or less**. Anything higher than that can lead to glitches and/or performance drops, so please use this carefully!
 
-The last bullet point is extremely important. Please don't try to make fancy 60ps animations with this mod. Seriously. I have no idea what that will even do.
+The last bullet point is extremely important. Please don't try to make fancy 60fps animations with this mod. Seriously. I have no idea what that will even do.
 
 ## Frame Count
 You should inform the exact number of frames your animation has; that is, the number of sprites in your spritesheet.

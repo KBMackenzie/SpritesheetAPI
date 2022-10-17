@@ -55,6 +55,7 @@ namespace SpritesheetAPI.ParseImage
         {
             byte[] data = File.ReadAllBytes(path);
             Texture2D tex = new Texture2D(1, 1);
+            tex.filterMode = FilterMode.Point;
             ImageConversion.LoadImage(tex, data);
             return tex;
         }

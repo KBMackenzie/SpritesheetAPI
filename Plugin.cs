@@ -19,7 +19,7 @@ namespace SpritesheetAPI
     {   
         public const string PluginGuid = "kel.inscryption.spritesheetapi";
         public const string PluginName = "Spritesheet API";
-        public const string PluginVersion = "0.1.2";
+        public const string PluginVersion = "0.1.3";
 
         internal static ManualLogSource myLogger; // Log source.
 
