@@ -94,6 +94,24 @@ A typical spritesheet should look something like this:
 
 **Note:** I have added the white background **just** so that this image is visible for users using Dark Mode and/or opening this image on a dark background. Your spritesheet's background should be **transparent**.
 
+#### "How do I make a spritesheet?"
+For starters: You don't have to put one together by hand! c:
+
+There are many tools you can use to make spritesheets! I'm going to list two of those tools I know.
+
+I use Krita, so the tool I use to make spritesheets is a really neat spritesheet extension called "kritaSpritesheetExporter"! c:
+
+[kritaSpritesheetExporter on Github](https://github.com/Falano/kritaSpritesheetManager)
+
+That Krita extension is what I used to make the example cards you see at the top of this page!
+
+There's also this online tool that lets you turn a sequence of images into a spritesheet:
+
+[CodeShack's Image to Sprite Sheet Generator](https://codeshack.io/images-sprite-sheet-generator/)
+
+I have not tested how spritesheets made with that tool interact with this mod yet, but looking at the exports, it seems like it'd work!
+
+
 #### GIF to Spritesheet
 *"Wait, a GIF? Can I use a GIF with this mod? How?"*.
 The simple answer is: Yes, you can!
