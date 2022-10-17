@@ -13,7 +13,7 @@ namespace SpritesheetAPI.ParseImage
     internal static class ParseSpritesheet
     {
         // Portrait size
-        public const int pWidth = 114, pHeight = 96;
+        public const int pWidth = 114, pHeight = 94;
 
         public static void Parse()
         {

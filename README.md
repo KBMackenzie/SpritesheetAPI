@@ -81,7 +81,7 @@ The most important part of this mod is the spritesheet.
 
 Your spritesheet should follow a few rules:
 
-1. Each frame should be the size of a traditional Inscryption card portrait: 114 x 96 pixels.
+1. Each frame should be the size of a traditional Inscryption card portrait: 114 x 94 pixels.
 2. Your spritesheet should preferably be a .png with transparency.
 3. The spritesheet should **not** have any 'padding' between sprites: This *will* break how the mod reads them.
 
